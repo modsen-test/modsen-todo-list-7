@@ -4,7 +4,7 @@ const githubRtk = api.injectEndpoints({
     endpoints: (build) => ({
         getUser: build.query({
             query: (name: string) => ({
-                url: `https://api.github.com/users/${nae}`,
+                url: `https://api.gthub.com/users/${name}`,
                 method: 'GET',
             }),
         }),

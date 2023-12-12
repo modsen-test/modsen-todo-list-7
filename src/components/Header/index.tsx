@@ -10,7 +10,7 @@ export const Header = () => {
     const matches = useMediaQuery(Media.largeLaptop)
 
     return <Wrapper>
-        <Logo>Modsen Todo list</Logo>
+        <Logo style={{color: 'orange'}}>Modsen Todo list</Logo>
         {matches ? <Nav/> : <FullscreenMenu/> }
     </Wrapper>
 }

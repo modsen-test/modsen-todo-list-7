@@ -8,7 +8,7 @@ export const TaskList = () => {
     const todos = useAppSelector(state => state.todos.items);
 
     return <Wrapper>
-        <h2 style={{color: 'orange'}}>Task list</h2>
+        <h2>Task list</h2>
         <StyledList>
             <Line/>
             {todos?.map(({id, text, selected}) => (
